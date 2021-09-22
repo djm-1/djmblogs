@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* custom css */
+.switch label input[type=checkbox]:checked+.lever {
+
+  background-color: #a6c;
+
+}
+.switch label input[type=checkbox]:checked+.lever:after {
+
+  background-color: white ;
+
+}
+
+.navbar-brand{
+  font-family: 'Merriweather',sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+/* #bgVideo{
+  z-index: -1;
+  position: relative;
+} */
+
+.carousel-caption{
+display: flex;
+align-items: center;
+top: 10%;
+}
+.text-box{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Merriweather',sans-serif; 
+  /* font-size: 1.5em; */
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  margin-top: 9%;
+  margin-bottom: 12%;
+}
+hr{
+  background-color: currentColor;
+}
+.card-text{
+  color: currentColor !important;
+}
+
+.ind{
+  width: 30px !important;
+  height: 3px !important;
+  border-radius: 0% !important;
+}
+.slidimg{
+  width: 100%;
+  height: 525px;
+}
+.slidecap{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px; 
+  width: 100%;
+}
